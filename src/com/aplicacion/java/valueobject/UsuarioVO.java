@@ -31,6 +31,7 @@ public class UsuarioVO {
 
     public void setPermisos(String permisos) {
         this.permisosB3 = permisos;
+
     }
 
     public int getIdPersona() {
