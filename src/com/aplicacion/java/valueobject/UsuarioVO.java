@@ -15,12 +15,22 @@ public class UsuarioVO {
     private int id;
     private String nombre;
     private String contra;
+    private String permisos;
 
-    public UsuarioVO(int idPersona, int id, String nombre, String contra) {
+    public UsuarioVO(int idPersona, int id, String nombre, String contra, String permisos) {
         this.idPersona = idPersona;
         this.id = id;
         this.nombre = nombre;
         this.contra = contra;
+        this.permisos = permisos;
+    }
+
+    public String getPermisos() {
+        return permisos;
+    }
+
+    public void setPermisos(String permisos) {
+        this.permisos = permisos;
     }
 
     public int getIdPersona() {
